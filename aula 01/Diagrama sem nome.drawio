@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.0.15">
+  <diagram name="Página-1" id="XIneToFf4SFaTudNRTlj">
+    <mxGraphModel dx="1426" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-1" target="5W83F8tUlnL_cz-WVGmo-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-1" value="inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-6" value="digite o total&lt;div&gt;de notas&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-8" target="5W83F8tUlnL_cz-WVGmo-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-8" value="total de notas" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-9" target="5W83F8tUlnL_cz-WVGmo-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-9" target="5W83F8tUlnL_cz-WVGmo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-9" value="notas atuais&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;&lt;/div&gt;&lt;div&gt;totalNotas&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-10" value="soma=soma&lt;div&gt;notaAtual&lt;/div&gt;&lt;div&gt;contador++&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-11" value="media = soma&lt;div&gt;/ totalDenotas&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-12" target="5W83F8tUlnL_cz-WVGmo-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-12" value="informe a nota N" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-13" value="Ler a nota atual" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="350" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-14" target="5W83F8tUlnL_cz-WVGmo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-14" value="media" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-15" value="fim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="720" y="320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-6" target="5W83F8tUlnL_cz-WVGmo-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.692;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-6" target="5W83F8tUlnL_cz-WVGmo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5W83F8tUlnL_cz-WVGmo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5W83F8tUlnL_cz-WVGmo-11" target="5W83F8tUlnL_cz-WVGmo-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,19 +1,18 @@
 <script>
-    /*
-    Peça ao usuário um número
-    Verifique se o número é par ou ímpar
-    Exiba o resultado no console
-    Faça o fluxograma (draw.io) do processo 
-    */
+   /*
+Peça ao usuário um número
+Verifique se o número é par ou ímpar
+Exiba o resultado no console
+Faça o fluxograma (draw.io) do processo 
+*/
+let prompt = require('prompt-sync')();
 
+let n = prompt('Informe um numero: ');
 
-    let idadeUsuario = prompt("Informe sua idade ");
-    console.log(typeof idadeUsuario);
-
-    if(numero % 2 == 0){
-     console.log("é par")
-    }else {
-        console.log("é impar")
-    }
+if(n % 2 == 0) {
+    console.log("É par");
+} else {
+    console.log("É impar");
+}
 
 </script>

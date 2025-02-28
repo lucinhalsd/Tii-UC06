@@ -8,7 +8,9 @@
 
 ```
 INICIO
-    LER
+    LER DISTANCIA
+    SE distancia < 50
+    SENAO SE DISTANCIA < 100 frete gratis
     ESCREVA
 FIM
 ```

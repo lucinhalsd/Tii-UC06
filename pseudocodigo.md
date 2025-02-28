@@ -24,3 +24,18 @@ Inicio;
   media = soma / totalDeNotas
   ESCREVA media
 FIM
+
+PSEUDOCODIGO: 26/02
+
+Inicio:
+carnes = 7; arroz = 12; feijao = 8
+
+Enquanto carnes >0, Earroz > 0, E feijao >0
+Escrever "que tipo de marmita deseja?"
+Leia opçao
+Caso opçao ==1
+carne --, arroz--, feijao--
+Caso opçao == 2
+carne -= 2
+Fim Enquanto
+Fim

@@ -1,0 +1,18 @@
+- Gerenciar Vagas
+```
+INICIO
+	vagas[]
+	totalHoras[]
+	escolha vaga X
+	ESCREVA "Informe a Hora"
+	LEIA hora
+	SE vaga[x] == NÃO OCUPADA
+	  vaga[x] = hora
+	SE NAO
+      SE vaga[x] >
+      ESCREVA "hora de saida menor que hora de entrada" 
+        entrada
+	  intervalo = hora - vaga[x]
+	  totalHoras[x] = intervalo
+	  vaga[x] = NÃO OCUPADA 
+FIM

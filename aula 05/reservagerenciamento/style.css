@@ -25,3 +25,19 @@ input, button {
     list-style: none;
     padding: 0;
 }
+
+.reserva-item {
+    background: #f4f4f4;
+    padding: 8px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+button.remover {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}

@@ -21,7 +21,8 @@ function removerCarro(linha, coluna) {
         console.log("VAGA JÁ SE ENCONTRA VAZIA!");
     }
 }
-function exibirEstacionamento(){
+
+function exibirEstacionamento() {
     console.log(estacionamento);
 }
 
@@ -30,6 +31,7 @@ estacionarCarro(1, 1, "ZBX9887");
 estacionarCarro(2, 1, "ABT0801");
 exibirEstacionamento();
 estacionarCarro(1, 1, "TTT0055");
+removerCarro(0,0);
 removerCarro(1,1);
 exibirEstacionamento();
 estacionarCarro(1, 1, "TTT0055");

@@ -27,4 +27,4 @@ predio[1][2] = "RH";
 console.log(predio); // Exibe Matriz completa
 
 // Adicionando uma nova linha na Matriz
-predio.push(["B1", "B2","B3"]);
+predio.push(["B1", "B2", "B3"]);

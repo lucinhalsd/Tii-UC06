@@ -20,7 +20,7 @@ class Pessoa {
         if(this.vivo) {
             console.log(`${this.nome} andou!`);
         } else {
-            cons
+            console.log("Não pode mais andar.");
         }
     }
 
@@ -34,6 +34,7 @@ class Pessoa {
 }
 
 let pessoa = new Pessoa(180, 80, 1990, "Aecio");
+
 
 console.log(pessoa);
 pessoa.andar();

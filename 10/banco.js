@@ -44,8 +44,16 @@ class Conta {
 }
 
 class ContaPoupanca extends Conta {
+    _diaAniversario;
+
+    constructor(titular, saldoInicial,diaAniversario){
+        super(titular,saldoInicial);
+        this._diaAniversario = diaAniversario;
+    }
     calcularRendimento() {
+        if(this._diaAniversario == diaDeHoje){
         this._saldo += this._saldo * 0.005;
+        }
     }
 }
 

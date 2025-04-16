@@ -1,6 +1,5 @@
 import { Produto } from "./Produto.js"
 
-
 export class BancoDeDados {
     // CREATE
     static salvar(produto) {
@@ -14,36 +13,42 @@ export class BancoDeDados {
     }
 
     // READ
-    buscarTodos() {
-     /// cria um array de produtos vazio
-     const produtos = [];
+    static buscarTodos() {
+        // cria um array de produtos vazio
+        const produtos = [];
 
-     // percorre o localStorage buscando todos os dados (JSON)
-     for(let i = 0; i < localStorage.length; i++) {
-        const chave = localStorage.key(i);
-        if(!isNaN(parseInt(chave))) {
-            const dados = JSON.parse(localStorage.getItem(chave));
-            let produto = new Produto(dados.nome, dados.preco, dados.peso, dados.validade);
-            produtos.push(produtos); // insere os produtos no array;
+        // percorre o localStorage buscando todos os dados (JSON)
+        for(let i = 0; i < localStorage.length; i++) {
+            const chave = localStorage.key(i);
+            if(!isNaN(parseInt(chave))) {
+                const dados = JSON.parse(localStorage.getItem(chave));
+                produtos.push(Produto.fromJSON(dados)); // isnere os produtos no array;
+            }
         }
+
+        // retornar esse array ordenado
+        return produtos.sort((a, b) => a.id - b.id);
     }
 
-     // retornar esse array ordenado
-     return produtos.sort((a,b) => a.id - b.id);     
- }
-    
-
-    buscarPorId(id) {
-
+    static buscarPorId(id) {
+        const produtoJson = localStorage.getItem(id);
+        const dados = JSON.parse(produtoJson);
+        return Produto.fromJSON(dados);
     }
 
     // UPDATE
-    atualizar(produtoAtualizado) {
-
+    static atualizar(produtoAtualizado) {
+        localStorage.setItem(produtoAtualizado.id, JSON.stringify({
+            id: produtoAtualizado.id,
+            nome: produtoAtualizado.nome,
+            preco: produtoAtualizado.preco,
+            peso: produtoAtualizado.peso,
+            validade: produtoAtualizado.validade
+        }));
     }
 
     //DELETE
-    excluir(id) {
-
+    static excluir(id) {
+        localStorage.removeItem(id);
     }
 }

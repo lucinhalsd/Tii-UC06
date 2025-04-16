@@ -28,7 +28,6 @@ export class Produto {
     }
 
     estaProximoDaValidade() {
-        const hj = '2025-04-14';
         const hoje = new Date();
         const diff = (this.#validade - hoje) / (1000 * 60 * 60 * 24);
         return diff < 10;
@@ -44,6 +43,17 @@ export class Produto {
             }
         }
         return maxId + 1;
+    }
+
+    atualizarDados(novoNome, novoPreco, novoPeso, novaValidade) {
+        if(!novoNome || isNaN(novoPreco) || isNaN(novoPeso) || !novaValidade) {
+            throw new Error("Dados inválidos para atualização");
+        }
+
+        this.#nome = novoNome;
+        this.#preco = novoPreco;
+        this.#peso = novoPeso;
+        this.#validade = novaValidade;
     }
 
     static fromJSON(json) {
